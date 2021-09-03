@@ -1,0 +1,26 @@
+{
+  "name": "unipass-js-sdk",
+  "version": "1.0.1",
+  "description": "unipass-js-sdk",
+  "main": "unipass.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lay2dev/unipass-js-sdk.git"
+  },
+  "keywords": [
+    "unipass",
+    "unipass-js-sdk",
+    "lay2"
+  ],
+  "author": "lay2dev",
+  "license": "lay2dev",
+  "bugs": {
+    "url": "https://github.com/lay2dev/unipass-js-sdk/issues"
+  },
+  "homepage": "https://github.com/lay2dev/unipass-js-sdk#readme",
+  "dependencies": {
+    "@types/node": "^16.7.10",
+    "crypto": "^1.0.1"
+  }
+}
