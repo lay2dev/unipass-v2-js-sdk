@@ -21,3 +21,6 @@ package-lock.json*
 *.njsproj
 *.sln
 *.sw*
+
+# build
+/dist/index.js
