@@ -86,6 +86,7 @@ declare interface Provider {
       }
       // handle message
       if (data.message) {
+        data.message = encodeURIComponent(data.message)
         if (data.type !== 'personal_sign') {
           data.message = createHash('SHA256')
             .update(data.message)

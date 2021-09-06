@@ -1,6 +1,6 @@
 {
   "name": "unipass-js-sdk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "unipass-js-sdk",
   "main": "dist/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "unipass",
     "unipass-js-sdk",
-    "lay2"
+    "lay2dev"
   ],
   "author": "lay2dev",
   "license": "lay2dev",

@@ -1,69 +1,69 @@
 # unipass-js-sdk
 
-[中文文档](readme.zh.md)
+[English Document](readme.md)
 
-install
+安装
 
 ```
 yarn add unipass-js-sdk
-// or
+// 或
 npm install unipass-js-sdk --save
 ```
 
-introduce
+引入
 
 ```js
 import unipass from 'unipass-js-sdk'
 ```
 
-Documentation: https://unipass.gitbook.io/docs/dev-info/connect-unipass
+文档：https://unipass.gitbook.io/docs/dev-info/connect-unipass
 
-Demonstration: https://t.unipass.xyz/demo
+演示：https://t.unipass.xyz/demo
 
-Example
+示例
 
-### init
+### 初始化 init
 
 ```js
 unipass.init('https://t.unipass.xyz', (ret) => {
   console.log('unipass_ret', ret)
-  // Example: Processing login return values
+  // 示例：处理登录返回值
   if (ret.info === 'login success') {
     this.provider = ret.data
   }
 })
-// After init, you can read the account in the local cache
+// init 后可以读取本地缓存的账号
 this.provider = unipass.provider
 ```
 
-### login
+### 登录 login
 
-- The return value is in the init callback function
+- 返回值在初始化 init 的回调函数中
 
-Page Jump mode
+URL 网页跳转 方式
 
 ```js
 unipass.login()
 ```
 
-Page pop-up mode
+Popup 页面弹窗 方式
 
 ```js
 unipass.popupLogin()
 ```
 
-### sign
+### 签名 sign
 
-- You must sign in before you can sign
-- The return value is in the init callback function
+- 必须在登录后才可以签名
+- 返回值在初始化 init 的回调函数中
 
-Page Jump mode
+URL 网页跳转 方式
 
 ```js
 unipass.sign({ message: 'demo' })
 ```
 
-Page pop-up mode
+Popup 页面弹窗 方式
 
 ```js
 unipass.popupSign({ message: 'demo' })
