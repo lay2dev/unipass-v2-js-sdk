@@ -1,6 +1,6 @@
 # unipass-js-sdk
 
-[English Document](readme.md)
+[English Document](README.md)
 
 安装
 

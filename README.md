@@ -1,6 +1,6 @@
 # unipass-js-sdk
 
-[中文文档](readme.zh.md)
+[中文文档](README.zh.md)
 
 install
 
